@@ -1,0 +1,38 @@
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Packages
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Project Specific
+agent_chrome_profile/
+outputs/
+test-results/
+playwright-report/
+
+# OS Files
+.DS_Store
+Thumbs.db
